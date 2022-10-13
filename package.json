@@ -1,15 +1,4 @@
 {
-  "name": "mern-tutorial",
-  "version": "1.0.0",
-  "description": "MERN Practice",
-  "main": "server.js",
-  "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
-
-  },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
@@ -18,5 +7,24 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJShea86/MERN-Prac-Oct.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AJShea86/MERN-Prac-Oct/issues"
+  },
+  "homepage": "https://github.com/AJShea86/MERN-Prac-Oct#readme",
+  "description": ""
 }
