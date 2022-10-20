@@ -2,7 +2,6 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const asyncHandler = require("express-async-handler");
 const User = require("../models/userModel");
-const { trusted } = require("mongoose");
 
 const registerUser = asyncHandler(async (req, res) => {
   const { name, email, password } = req.body;
